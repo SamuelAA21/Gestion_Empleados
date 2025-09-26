@@ -1,6 +1,6 @@
 from typing import List
 from backend.core.entities.usuario import Usuario
-from core.repositories.usuario_repository import UsuarioRepository
+from backend.core.repositories.usuario_repository import UsuarioRepository
 from config.database import get_connection
 
 class UsuarioRepositoryMySQL(UsuarioRepository):

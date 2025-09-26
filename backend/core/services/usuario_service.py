@@ -1,6 +1,7 @@
 from typing import List
-from backend.core.entities.usuario import Usuario
-from backend.core.repositories.usuario_repository import UsuarioRepository
+from core.entities.usuario import Usuario
+from core.repositories.usuario_repository import UsuarioRepository
+
 
 class UsuarioService:
     """Servicio de negocio para la gestión de usuarios."""
