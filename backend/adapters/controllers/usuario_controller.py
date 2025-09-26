@@ -1,5 +1,6 @@
 from fastapi import APIRouter
-from core.services.usuario_service import UsuarioService
+from backend.core.entities.usuario import Usuario
+from backend.core.services.usuario_service import UsuarioService
 from adapters.persistence.usuario_repository_mysql import UsuarioRepositoryMySQL
 
 router = APIRouter(prefix="/usuarios", tags=["Usuarios"])
